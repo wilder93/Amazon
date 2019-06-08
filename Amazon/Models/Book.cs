@@ -8,6 +8,8 @@ namespace Amazon.Models
 {
     public class Book
     {
+        public  Guid BookId { get; set; }
+
         [Required(ErrorMessage = "Por favor ingresa un ISBN")]
         public string ISBN { get; set; }
 
