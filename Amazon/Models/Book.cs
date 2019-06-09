@@ -26,5 +26,6 @@ namespace Amazon.Models
         public int? NroPages { get; set; }
 
         public LevelStock LevelStock { get; set; } = LevelStock.InStock;
+        public string Category { get; set; }
     }
 }
